@@ -1,0 +1,60 @@
+My main application progressively developed through excercises starting from 8.
+To be populated with new functionality developed to upload as Baseline.
+
+Console Commands:
+==========================================================
+r a a a a
+lu
+l a a
+aa run wit 2.0
+la
+al 91871d08-749d-4106-a84e-78f8e76fff8f 3.0 3.0
+lal 91871d08-749d-4106-a84e-78f8e76fff8f
+
+REST Commands:
+==========================================================
+
+
+
+
+
+1. inserted the following dependancies in pom.xml
+
+    <dependency>
+      <groupId>io.javalin</groupId>
+      <artifactId>javalin</artifactId>
+      <version>0.5.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <version>1.7.21</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.9.1</version>
+    </dependency>
+
+2. Removed below dependancy from pom.xml
+
+    <dependency>
+      <groupId>asg-cliche</groupId>
+      <artifactId>asg-cliche</artifactId>
+      <version>1.0</version>
+    </dependency>
+
+3. Inserted the following correct one. 
+<Issue there is a version problem for asg Cliche. The one used is 1.0>
+    <!-- https://mvnrepository.com/artifact/com.googlecode.clichemaven/cliche -->
+	<dependency>
+      <groupId>com.googlecode.clichemaven</groupId>
+      <artifactId>cliche</artifactId>
+      <version>110413</version>
+	</dependency>
+
+4. Executed the following command on command line.
+mvn package.
+
+Build successful.
+
